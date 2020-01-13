@@ -9,7 +9,7 @@ export default {
     
     \n\nAt minimum 2FA should be installed on accounts that can lock you out of other accounts: e.g. a Google account, email applications, an Apple ID, and financial accounts. For stronger security, ensure that 2FA is enabled on every service you use that supports it.
 
-    \n\n**Note:** Using an all-in-one solution like 1Password for both password management *and* 2FA creates a single point of failure. Take this into account when picking your 2FA client.
+    \n\n**Note:** Using an all-in-one solution like 1Password for both password management *and* 2FA creates a single point of failure. Take this into account when picking your 2FA client. Be sure to back-up any recovery codes given to you during the 2FA setup processes, otherwise you risk locking yourself out of your accounts.
     `,
   apps: [
     {
@@ -95,6 +95,18 @@ export default {
       name: 'So hey, you should stop using texts for two-factor authentication',
       url:
         'https://www.wired.com/2016/06/hey-stop-using-texts-two-factor-authentication/',
+    },
+    {
+      name: 'List of websites and whether or not they support 2FA.',
+      url: 'https://twofactorauth.org/',
+    },
+    {
+      name: 'Step-by-step instructions on enabling 2FA',
+      url: 'https://www.turnon2fa.com/',
+    },
+    {
+      name: 'List of websites and whether or not they support One Time Passwords (OTP) or Universal 2nd Factor (U2F)',
+      url: 'https://www.dongleauth.info/',
     },
   ],
 };

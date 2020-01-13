@@ -4,6 +4,16 @@ export default {
   description: `Over the years social media companies are able to gather staggering amounts of data about you, your interests, who you talk to, where you go, what you buy, and so much more.
 
   \n\nIf you‘re not ready to give up social media quite yet, you should take the time to review your security and privacy settings. Visualizing the amount of information that social media companies know about you may be enough to curb that unhealthy newsfeed obsession.`,
+  apps: [
+    {
+      name: 'Jumbo',
+      image: '/static/img/jumbo.png',
+      url: 'https://www.jumboprivacy.com/',
+      sources: {
+        ios: 'https://apps.apple.com/us/app/jumbo-privacy/id1454039975'
+      }
+    }
+  ],
   resources: [
     {
       name: 'Facebook privacy settings',
@@ -66,8 +76,13 @@ export default {
         'https://myaccount.google.com/reservations?utm_source=google-account&utm_medium=web&continue=https%3A%2F%2Fmyaccount.google.com%2Fpayments-and-subscriptions',
     },
     {
-      name: 're:consent browser extension gives you more privacy control on the web',
+      name:
+        're:consent browser extension gives you more privacy control on the web',
       url: 'https://cliqz.com/en/magazine/re-consent',
+    },
+    {
+      name: 'Opt out of all the data sharing you wouldn’t opt in to',
+      url: 'http://simpleoptout.com/',
     },
   ],
 };

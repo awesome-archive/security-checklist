@@ -45,6 +45,15 @@ export default {
         linux: 'https://mail.tutanota.com/desktop/tutanota-desktop-linux.AppImage'
       },
     },
+    {
+      name: 'Burner Mail',
+      image: '/static/img/burnermail.jpg',
+      url: 'https://burnermail.io/',
+      sources: {
+        windows: 'https://burnermail.io/',
+        macos: 'https://burnermail.io/'
+      },
+    },
   ],
   resources: [
     {
@@ -59,6 +68,18 @@ export default {
       name: 'How Google is destroying privacy and collecting your data',
       url:
         'https://www.salon.com/2014/02/05/4_ways_google_is_destroying_privacy_and_collecting_your_data_partner/',
+    },
+    {
+      name: 'Privacy-friendly alternatives to Google that don’t track you',
+      url: 'https://nomoregoogle.com/',
+    },
+    {
+      name: 'Opt out of global data surveillance programs like PRISM, XKeyscore and Tempora.',
+      url: 'https://prism-break.org/en/',
+    },
+    {
+      name: 'Knowledge and tools to protect your privacy against global mass surveillance',
+      url: 'https://www.privacytools.io/',
     },
   ],
 };
